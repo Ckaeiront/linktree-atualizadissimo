@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    --color-first: rgb(125,102,163);
+}
+
+html, 
+body {
+    height: 100vh;
+    /* background: rgb(125,102,163);
+    background: linear-gradient(0deg, rgba(125,102,163,1) 0%, rgba(97,77,130,1) 100%); */
+    background: rgb(125,102,163);
+    background: linear-gradient(0deg, rgba(125,102,163,1) 0%, rgba(97,77,130,1) 100%);
+}
+
+.player {
+    display: flex;
+    margin: 50px auto;
+    background-color: #C3ABEA;
+    width: 380px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 15px;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.377);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.player .banner img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 80%;
+    width: 100%;
+}
+
+.player .music-photo {
+    height: 140px;
+    border-radius: 100%;
+    box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.568);
+    margin-bottom: 1rem;
+}
+
+.player .info {
+    position: relative;
+    top: -115px;
+}
+
+.player .info .links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30%;
+}
+
+.player .info .links img {
+    height: 1.6rem;
+}
+
+.player .info .skills {
+    font-size: 0.7rem;
+    border: 1px solid grey;
+    padding: 2px;
+    margin: 5px 0;
+    border-radius: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
